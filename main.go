@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gayathrisuresh150501/go-dsa/patterns"
+	patterns "github.com/gayathrisuresh150501/go-dsa/pattern"
 )
 
 func main() {
