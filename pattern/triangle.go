@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func PrintTriangle(height int) {
+func PrintRightTriangle(height int) {
 	var buf strings.Builder
 
 	for row := 1; row <= height; row += 1 {
@@ -23,7 +23,7 @@ func PrintTriangle(height int) {
 	fmt.Print(buf.String())
 }
 
-func PrintReverseTriange(height int) {
+func PrintReverseRightTriangle(height int) {
 	var buf strings.Builder
 
 	for row := height; row >= 1; row -= 1 {
