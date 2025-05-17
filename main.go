@@ -6,5 +6,6 @@ import (
 
 func main() {
 	// pattern.PrintRectangle(10, 5)
-	pattern.PrintTriangle(5)
+	// pattern.PrintTriangle(5)
+	pattern.PrintReverseTriange(5)
 }
