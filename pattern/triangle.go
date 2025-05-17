@@ -5,12 +5,11 @@ import (
 	"strings"
 )
 
-func PrintRectangle(l, b int) {
+func PrintTriangle(height int) {
 	var buf strings.Builder
 
-	for row := 1; row <= b; row += 1 {
-		for col := 1; col <= l; col += 1 {
-			// fmt.Print("* ")
+	for row := 1; row <= height; row += 1 {
+		for col := 1; col <= row; col += 1 {
 			buf.WriteString("* ")
 		}
 
