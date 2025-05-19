@@ -11,5 +11,6 @@ func main() {
 	// pattern.PrintTriangle(3)
 	// pattern.PrintReverseTriangle(3)
 	// pattern.PrintRhombus(3)
-	pattern.PrintHalfRhombus(3)
+	// pattern.PrintHalfRhombus(3)
+	pattern.PrintBinaryRightTriangle(5)
 }
