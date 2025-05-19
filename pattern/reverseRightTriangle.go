@@ -20,3 +20,9 @@ func PrintReverseRightTriangle(height int) {
 
 	fmt.Print(buf.String())
 }
+
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *

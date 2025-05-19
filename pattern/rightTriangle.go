@@ -22,3 +22,9 @@ func PrintRightTriangle(height int) {
 
 	fmt.Print(buf.String())
 }
+
+// 1
+// 12
+// 123
+// 1234
+// 12345

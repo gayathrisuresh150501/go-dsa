@@ -19,3 +19,9 @@ func PrintRectangle(l, b int) {
 
 	fmt.Print(buf.String())
 }
+
+// * * * * * * * * * *
+// * * * * * * * * * *
+// * * * * * * * * * *
+// * * * * * * * * * *
+// * * * * * * * * * *

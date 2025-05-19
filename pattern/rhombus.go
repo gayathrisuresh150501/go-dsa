@@ -34,3 +34,9 @@ func PrintRhombus(n int) {
 
 	fmt.Print(buf.String())
 }
+
+//   *
+//  ***
+// *****
+//  ***
+//   *
