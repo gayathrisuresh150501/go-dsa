@@ -8,20 +8,11 @@ import (
 func PrintBinaryRightTriangle(n int) {
 	var buf strings.Builder
 
-	for row := 1; row <= n; row += 1 {
-		for col := 1; col <= row; col += 1 {
-			if row%2 != 0 && col%2 != 0 {
+	for row := 1; row <= n; row++ {
+		for col := 1; col <= row; col++ {
+			if (row+col)%2 == 0 {
 				buf.WriteString("1 ")
-			}
-			if row%2 == 0 && col%2 == 0 {
-				buf.WriteString("1 ")
-			}
-
-			if row%2 != 0 && col%2 == 0 {
-				buf.WriteString("0 ")
-			}
-
-			if row%2 == 0 && col%2 != 0 {
+			} else {
 				buf.WriteString("0 ")
 			}
 		}
